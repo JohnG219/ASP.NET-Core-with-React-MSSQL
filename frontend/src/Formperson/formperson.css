@@ -1,0 +1,30 @@
+.table-striped thead tr th {
+    border-bottom: 1px solid #000;
+  }
+
+  .alert-danger {
+    position: fixed; 
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 300px; 
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    padding: 10px; 
+    z-index: 1000; 
+  }
+
+  .error::placeholder {
+    color: #000; 
+  }
+
+  .form-control.error {
+    background-color: #ffe6e6; 
+    border-color: #ff0000; 
+  }
+  
+  .is-invalid {
+    background-color: #ff3333; 
+    color: white;
+  }
